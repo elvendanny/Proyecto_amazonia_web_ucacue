@@ -1,17 +1,68 @@
 [
     {
         "id": 1,
-        "nombre": "Tena",
-        "descripcion": "Disfruta de ríos, naturaleza y actividades de aventura en una de las principales ciudades amazónicas del Ecuador."
+        "nombre": "Aventura en Tena",
+        "destino": "Tena",
+        "descripcion": "Disfruta de ríos, senderos y paisajes amazónicos en una experiencia ideal para quienes buscan naturaleza y aventura.",
+        "duracion": "1 día",
+        "precio": 45,
+        "dificultad": "Media",
+        "imagen": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80",
+        "destacado": true
     },
     {
         "id": 2,
-        "nombre": "Cuyabeno",
-        "descripcion": "Explora lagunas, bosques tropicales y una gran variedad de animales en plena selva amazónica."
+        "nombre": "Expedición Cuyabeno",
+        "destino": "Cuyabeno",
+        "descripcion": "Explora lagunas, bosques tropicales y una gran variedad de animales en uno de los destinos naturales más conocidos de la Amazonía.",
+        "duracion": "3 días / 2 noches",
+        "precio": 180,
+        "dificultad": "Media",
+        "imagen": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=900&q=80",
+        "destacado": true
     },
     {
         "id": 3,
-        "nombre": "Yasuni",
-        "descripcion":"Conoce uno de los lugares con mayor biodiversidad del planeta y descubre comunidades amazónicas."
+        "nombre": "Naturaleza en Yasuní",
+        "destino": "Yasuní",
+        "descripcion": "Conoce uno de los lugares con mayor biodiversidad del planeta y disfruta de recorridos rodeados de naturaleza amazónica.",
+        "duracion": "2 días / 1 noche",
+        "precio": 150,
+        "dificultad": "Baja",
+        "imagen": "https://images.unsplash.com/photo-1535338454770-8be927b5a00b?auto=format&fit=crop&w=900&q=80",
+        "destacado": true
+    },
+    {
+        "id": 4,
+        "nombre": "Ruta del Puyo",
+        "destino": "Puyo",
+        "descripcion": "Visita cascadas, senderos y espacios naturales en una ruta diseñada para disfrutar de la entrada a la Amazonía ecuatoriana.",
+        "duracion": "1 día",
+        "precio": 40,
+        "dificultad": "Baja",
+        "imagen": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80",
+        "destacado": false
+    },
+    {
+        "id": 5,
+        "nombre": "Caminata Amazónica",
+        "destino": "Napo",
+        "descripcion": "Recorre senderos naturales acompañado de un guía y aprende sobre plantas, animales y características del bosque tropical.",
+        "duracion": "5 horas",
+        "precio": 35,
+        "dificultad": "Media",
+        "imagen": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=900&q=80",
+        "destacado": false
+    },
+    {
+        "id": 6,
+        "nombre": "Experiencia Cultural Amazónica",
+        "destino": "Amazonía ecuatoriana",
+        "descripcion": "Conoce tradiciones, gastronomía y costumbres de comunidades amazónicas mediante una experiencia cultural respetuosa y educativa.",
+        "duracion": "1 día",
+        "precio": 50,
+        "dificultad": "Baja",
+        "imagen": "https://images.unsplash.com/photo-1521295121783-8a321d551ad2?auto=format&fit=crop&w=900&q=80",
+        "destacado": false
     }
 ]

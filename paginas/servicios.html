@@ -1,53 +1,377 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Servicios - Amazonia Travel</title>
+<head>
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" href="../css/estilos.css">
-    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Servicios y tours de Amazonía Travel por la Amazonía ecuatoriana.">
+
+    <title>Amazonía Travel | Servicios</title>
+
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <script src="../js/app.js" defer></script>
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+    <header class="encabezado">
+
+        <div class="logo">
+            <span class="logo-icono">🌿</span>
+
+            <div>
+                <h1>Amazonía Travel</h1>
+                <p>Explora. Descubre. Vive.</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <a href="../index.html">Inicio</a>
+            <a href="servicios.html" class="activo">Servicios</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+
+    </header>
 
 
-    <body>
-        <header>
+    <!-- =========================
+         CONTENIDO PRINCIPAL
+    ========================== -->
+    <main>
 
-            <h1> Amazonia Travel </h1>
+        <!-- PORTADA DE LA PÁGINA -->
+        <section class="pagina-hero pagina-hero-servicios">
 
-            <nav>
+            <div class="pagina-hero-contenido">
+
+                <p class="hero-etiqueta">
+                    Experiencias amazónicas
+                </p>
+
+                <h2>
+                    Nuestros tours y servicios
+                </h2>
+
+                <p>
+                    Encuentra diferentes opciones para disfrutar de
+                    la naturaleza, la aventura y la cultura de la
+                    Amazonía ecuatoriana.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- INTRODUCCIÓN -->
+        <section class="seccion">
+
+            <div class="titulo-seccion">
+
+                <p class="subtitulo">
+                    Elige tu experiencia
+                </p>
+
+                <h2>
+                    Tours para diferentes tipos de viajeros
+                </h2>
+
+                <p>
+                    Contamos con actividades pensadas para quienes
+                    buscan aventura, contacto con la naturaleza,
+                    recorridos tranquilos y experiencias culturales.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SERVICIOS CARGADOS DESDE JSON -->
+        <section class="seccion seccion-clara">
+
+            <div class="titulo-seccion">
+
+                <p class="subtitulo">
+                    Catálogo
+                </p>
+
+                <h2>
+                    Servicios disponibles
+                </h2>
+
+                <p>
+                    Los servicios que aparecen a continuación son
+                    cargados automáticamente desde nuestro archivo JSON.
+                </p>
+
+            </div>
+
+
+            <!--
+                JavaScript insertará aquí las tarjetas
+                completas de servicios.
+            -->
+            <div
+                class="servicios-grid"
+                id="servicios-container">
+            </div>
+
+        </section>
+
+
+        <!-- INFORMACIÓN ADICIONAL -->
+        <section class="seccion">
+
+            <div class="titulo-seccion">
+
+                <p class="subtitulo">
+                    Incluido en nuestros recorridos
+                </p>
+
+                <h2>
+                    Pensamos en cada detalle
+                </h2>
+
+            </div>
+
+
+            <div class="incluye-grid">
+
+                <article class="incluye-item">
+
+                    <div class="incluye-icono">
+                        👨‍🏫
+                    </div>
+
+                    <h3>Guía turístico</h3>
+
+                    <p>
+                        Acompañamiento durante el recorrido para
+                        orientar y brindar información del destino.
+                    </p>
+
+                </article>
+
+
+                <article class="incluye-item">
+
+                    <div class="incluye-icono">
+                        🚐
+                    </div>
+
+                    <h3>Transporte</h3>
+
+                    <p>
+                        Traslado según el tipo de recorrido y las
+                        características del servicio contratado.
+                    </p>
+
+                </article>
+
+
+                <article class="incluye-item">
+
+                    <div class="incluye-icono">
+                        🦺
+                    </div>
+
+                    <h3>Equipamiento</h3>
+
+                    <p>
+                        Implementos básicos de seguridad en aquellas
+                        actividades que lo requieren.
+                    </p>
+
+                </article>
+
+
+                <article class="incluye-item">
+
+                    <div class="incluye-icono">
+                        📸
+                    </div>
+
+                    <h3>Experiencia</h3>
+
+                    <p>
+                        Recorridos organizados para aprovechar el
+                        destino y crear recuerdos inolvidables.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- RECOMENDACIONES -->
+        <section class="recomendaciones">
+
+            <div class="recomendaciones-contenido">
+
+                <div>
+
+                    <p class="subtitulo subtitulo-claro">
+                        Antes de viajar
+                    </p>
+
+                    <h2>
+                        Recomendaciones para tu aventura
+                    </h2>
+
+                </div>
+
+
+                <div class="recomendaciones-lista">
+
+                    <article>
+                        <span>01</span>
+
+                        <div>
+                            <h3>Ropa cómoda</h3>
+                            <p>
+                                Utiliza ropa ligera, calzado adecuado
+                                y prendas apropiadas para zonas húmedas.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article>
+                        <span>02</span>
+
+                        <div>
+                            <h3>Protección personal</h3>
+                            <p>
+                                Lleva protector solar, repelente,
+                                gorra y suficiente agua.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <article>
+                        <span>03</span>
+
+                        <div>
+                            <h3>Respeta el entorno</h3>
+                            <p>
+                                No dejes residuos y sigue las
+                                indicaciones del guía durante el recorrido.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LLAMADO A LA ACCIÓN -->
+        <section class="llamado">
+
+            <div class="llamado-contenido">
+
+                <div>
+
+                    <p class="subtitulo subtitulo-claro">
+                        ¿Tienes alguna duda?
+                    </p>
+
+                    <h2>
+                        Te ayudamos a elegir tu próxima experiencia
+                    </h2>
+
+                    <p>
+                        Escríbenos para recibir información sobre
+                        disponibilidad, horarios y características
+                        de nuestros recorridos.
+                    </p>
+
+                </div>
+
+
+                <a href="contacto.html"
+                    class="boton boton-amarillo">
+                    Solicitar información
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+    <footer class="pie-pagina">
+
+        <div class="footer-contenido">
+
+            <div class="footer-marca">
+
+                <h3>
+                    🌿 Amazonía Travel
+                </h3>
+
+                <p>
+                    Turismo, naturaleza y aventura
+                    en la Amazonía ecuatoriana.
+                </p>
+
+            </div>
+
+
+            <div class="footer-enlaces">
+
+                <h4>Navegación</h4>
+
                 <a href="../index.html">Inicio</a>
                 <a href="servicios.html">Servicios</a>
                 <a href="nosotros.html">Nosotros</a>
                 <a href="contacto.html">Contacto</a>
-            </nav>
-        </header>
+
+            </div>
 
 
+            <div class="footer-contacto">
 
-        <main>
+                <h4>Contacto</h4>
 
-            <h2>Nuestros Servicios</h2>
+                <p>📍 Ecuador</p>
+                <p>📞 +593 98 000 0000</p>
+                <p>✉️ info@amazoniatravel.com</p>
 
-        </main>
+            </div>
 
-
-
-
-        <footer>
-        <p> amazonia travel </pp>
-        <p> Turismo y aventura en la amazonia.</p>
-        <p>  © 2026 Amazonía Travel </p>
+        </div>
 
 
+        <div class="footer-inferior">
 
+            <p>
+                © <span class="anio-actual">2026</span>
+                Amazonía Travel. Todos los derechos reservados.
+            </p>
 
-
+        </div>
 
     </footer>
 
-    </body>
-
+</body>
 
 </html>
