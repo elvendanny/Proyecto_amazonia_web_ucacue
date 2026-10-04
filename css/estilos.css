@@ -130,4 +130,46 @@ nav a:hover{
         grid-template-columns: repeat(2, 1fr);
     }
 
+
+}
+
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+
+    .presentacion h2 {
+        font-size: 32px;
+    }
+
+    .presentacion p {
+        font-size: 17px;
+    }
+
+    .contenedor-destinos {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+footer{
+    background-color: #163020;
+    color: white;
+    text-aling: center;
+    padding: 25 px;
+}
+
+footer p {
+    margin: 5px;
 }

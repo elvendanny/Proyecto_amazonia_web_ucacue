@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "nombre": "Tena",
+        "descripcion": "Disfruta de ríos, naturaleza y actividades de aventura en una de las principales ciudades amazónicas del Ecuador."
+    },
+    {
+        "id": 2,
+        "nombre": "Cuyabeno",
+        "descripcion": "Explora lagunas, bosques tropicales y una gran variedad de animales en plena selva amazónica."
+    },
+    {
+        "id": 3,
+        "nombre": "Yasuni",
+        "descripcion":"Conoce uno de los lugares con mayor biodiversidad del planeta y descubre comunidades amazónicas."
+    }
+]
